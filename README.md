@@ -26,7 +26,7 @@
 
 # Dragon and Knight
 
-<iframe width="480" height="360" src="https://www.youtube.com/embed/Yo19VyVmrfs" frameborder="0" allowfullscreen></iframe>
+[![Dragon and Knight](http://img.youtube.com/vi/Yo19VyVmrfs/0.jpg)](http://www.youtube.com/watch?v=Yo19VyVmrfs "Dragon and Knight")
 
 ## Example script
 

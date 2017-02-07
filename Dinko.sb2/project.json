@@ -1,0 +1,90 @@
+{
+	"objName": "Stage",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": 0,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "pozadina1",
+			"baseLayerID": 2,
+			"baseLayerMD5": "09dd399f860edd130849e223cbb21cf6.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 480,
+			"rotationCenterY": 360
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": 0,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Dinosaur3",
+			"scripts": [[248,
+					35,
+					[["whenGreenFlag"],
+						["doUntil",
+							["touchingColor:", -6727424],
+							[["pointTowards:", "_mouse_"],
+								["forward:", 1],
+								["doIf",
+									["touchingColor:", -65536],
+									[["playSound:", "cheer"], ["wait:elapsed:from:", 3], ["stopScripts", "all"]]]]],
+						["doIf", ["touchingColor:", -6727424], [["playSound:", "bass beatbox"]]]]]],
+			"sounds": [{
+					"soundName": "pop",
+					"soundID": 0,
+					"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+					"sampleCount": 258,
+					"rate": 11025,
+					"format": ""
+				},
+				{
+					"soundName": "bass beatbox",
+					"soundID": 1,
+					"md5": "28153621d293c86da0b246d314458faf.wav",
+					"sampleCount": 6720,
+					"rate": 22050,
+					"format": ""
+				},
+				{
+					"soundName": "cheer",
+					"soundID": 2,
+					"md5": "4b36eebf22be4667fc2f15b78c805b4c.wav",
+					"sampleCount": 62528,
+					"rate": 22050,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "dinosaur3",
+					"baseLayerID": 1,
+					"baseLayerMD5": "79bb51bbf809b412147f2a196f8c9292.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 75,
+					"rotationCenterY": 75
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 147.19617332353528,
+			"scratchY": -127.74021410732966,
+			"scale": 0.7,
+			"direction": 84.34969020064871,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"videoOn": false,
+		"flashVersion": "MAC 24,0,0,194",
+		"scriptCount": 1,
+		"hasCloudData": false,
+		"swfVersion": "v454",
+		"spriteCount": 1,
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36"
+	}
+}

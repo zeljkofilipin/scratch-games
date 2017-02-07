@@ -1,0 +1,115 @@
+{
+	"objName": "Stage",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": 1,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "pozadina1",
+			"baseLayerID": 4,
+			"baseLayerMD5": "76819d9e75c11295e2a199099ec7119e.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 480,
+			"rotationCenterY": 360
+		},
+		{
+			"costumeName": "moon",
+			"baseLayerID": 5,
+			"baseLayerMD5": "0b1d2eaf22d62ef88de80ccde5578fba.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 480,
+			"rotationCenterY": 360
+		}],
+	"currentCostumeIndex": 1,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": 0,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Dragon",
+			"scripts": [[215,
+					71,
+					[["whenGreenFlag"],
+						["doForever",
+							[["forward:", 1],
+								["doIfElse", ["keyPressed:", "space"], [["lookLike:", "dragon1-b"]], [["lookLike:", "dragon1-a"]]],
+								["pointTowards:", "Knight"]]]]]],
+			"costumes": [{
+					"costumeName": "dragon1-a",
+					"baseLayerID": 1,
+					"baseLayerMD5": "ee0082b436d6d5dc3de33047166e7bf2.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 65,
+					"rotationCenterY": 60
+				},
+				{
+					"costumeName": "dragon1-b",
+					"baseLayerID": 2,
+					"baseLayerMD5": "bb58ce36997fa205a86a085f202837fd.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 84,
+					"rotationCenterY": 56
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -86.69026518598697,
+			"scratchY": -2.100915110934087,
+			"scale": 0.6000000000000001,
+			"direction": -168.2896528971321,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "Knight",
+			"scripts": [[198,
+					56,
+					[["whenGreenFlag"],
+						["doUntil", ["touching:", "Dragon"], [["pointTowards:", "_mouse_"], ["forward:", 4]]],
+						["playSound:", "scream-male1"],
+						["wait:elapsed:from:", 1],
+						["stopScripts", "all"]]]],
+			"sounds": [{
+					"soundName": "scream-male1",
+					"soundID": 0,
+					"md5": "e06e29398d770dae3cd57447439752ef.wav",
+					"sampleCount": 17010,
+					"rate": 22050,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "knight",
+					"baseLayerID": 3,
+					"baseLayerMD5": "f2c5e8bc24d001b81566879dbf2f1a13.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 75,
+					"rotationCenterY": 75
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -97.20333383540427,
+			"scratchY": -52.82047532690913,
+			"scale": 0.4500000000000001,
+			"direction": 110.6644564315692,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 2,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"videoOn": false,
+		"flashVersion": "MAC 24,0,0,194",
+		"scriptCount": 2,
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36",
+		"hasCloudData": false,
+		"swfVersion": "v454",
+		"spriteCount": 2
+	}
+}

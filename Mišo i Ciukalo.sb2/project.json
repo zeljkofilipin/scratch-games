@@ -1,0 +1,125 @@
+{
+	"objName": "Stage",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": 1,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "backdrop1",
+			"baseLayerID": 5,
+			"baseLayerMD5": "e79dfbfa986fec9ea1f28ec10b36f2da.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 480,
+			"rotationCenterY": 360
+		},
+		{
+			"costumeName": "moon",
+			"baseLayerID": 6,
+			"baseLayerMD5": "0b1d2eaf22d62ef88de80ccde5578fba.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 480,
+			"rotationCenterY": 360
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": 0,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Sprite1",
+			"scripts": [[23, 40, [["whenKeyPressed", "w"], ["forward:", 10], ["nextCostume"]]],
+				[8, 153, [["whenKeyPressed", "a"], ["turnLeft:", 15], ["nextCostume"]]],
+				[450, 39, [["whenKeyPressed", "s"], ["forward:", -10], ["nextCostume"]]],
+				[445, 157, [["whenKeyPressed", "d"], ["turnRight:", 15], ["nextCostume"]]]],
+			"sounds": [{
+					"soundName": "meow",
+					"soundID": 0,
+					"md5": "83c36d806dc92327b9e7049a565c6bff.wav",
+					"sampleCount": 18688,
+					"rate": 22050,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": 1,
+					"baseLayerMD5": "09dc888b0b7df19f70d81588ae73420e.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 47,
+					"rotationCenterY": 55
+				},
+				{
+					"costumeName": "costume2",
+					"baseLayerID": 2,
+					"baseLayerMD5": "3696356a03a8d938318876a593572843.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 47,
+					"rotationCenterY": 55
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 50.32243547894538,
+			"scratchY": -102.25466224457931,
+			"scale": 0.5500000000000002,
+			"direction": 87.33908727832619,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "Mouse1",
+			"scripts": [[168, 63, [["whenKeyPressed", "up arrow"], ["changeYposBy:", 10], ["nextCostume"]]],
+				[187, 235, [["whenKeyPressed", "right arrow"], ["changeXposBy:", 10], ["nextCostume"]]],
+				[174, 326, [["whenKeyPressed", "left arrow"], ["changeXposBy:", -10], ["nextCostume"]]],
+				[176, 147, [["whenKeyPressed", "down arrow"], ["changeYposBy:", -10], ["nextCostume"]]]],
+			"sounds": [{
+					"soundName": "pop",
+					"soundID": 1,
+					"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+					"sampleCount": 258,
+					"rate": 11025,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "mouse1-a",
+					"baseLayerID": 3,
+					"baseLayerMD5": "e1f0c26afecbe9d4b9923d8e6bf489a8.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 50,
+					"rotationCenterY": 27
+				},
+				{
+					"costumeName": "mouse1-b",
+					"baseLayerID": 4,
+					"baseLayerMD5": "f5e477a3f94fc98ba3cd927228405646.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 65,
+					"rotationCenterY": 21
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -122,
+			"scratchY": -120,
+			"scale": 0.40000000000000013,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 2,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"videoOn": false,
+		"flashVersion": "MAC 24,0,0,194",
+		"scriptCount": 8,
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36",
+		"hasCloudData": false,
+		"swfVersion": "v454",
+		"spriteCount": 2
+	}
+}

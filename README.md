@@ -24,21 +24,6 @@
 
 (From http://stackoverflow.com/a/29616114/17469)
 
-# Dragon and Knight
+# Zmajko: Dragon and Knight
 
-[![Dragon and Knight](http://img.youtube.com/vi/Yo19VyVmrfs/0.jpg)](http://www.youtube.com/watch?v=Yo19VyVmrfs "Dragon and Knight")
-
-## Example script
-
-    ...
-     "scripts": [[55,
-         194,
-         [["putPenDown"],
-           ["forward:", 60],
-           ["turnRight:", 90],
-           ["forward:", 60],
-           ["turnRight:", 90],
-           ["forward:", 60],
-           ["turnRight:", 90],
-           ["forward:", 60]]]],
-    ...
+[![Zmajko: Dragon and Knight](http://img.youtube.com/vi/Yo19VyVmrfs/0.jpg)](http://www.youtube.com/watch?v=Yo19VyVmrfs "Zmajko: Dragon and Knight")

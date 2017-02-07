@@ -1,8 +1,8 @@
 # Simple games written in Scratch
 
-## Usage
+# Usage
 
-### Git to Scratch 
+## Git to Scratch 
 
 - Compress a folder
 - example: `Zmajko.sb2`
@@ -10,7 +10,7 @@
 - Rename it to `Zmajko.sb2`
 - Upload it to [online editor](https://scratch.mit.edu/) or Scratch application
 
-### Scratch to Git
+## Scratch to Git
 
 - Create a project with [online editor](https://scratch.mit.edu/) or Scratch application
 - Save it to the computer
@@ -26,4 +26,12 @@
 
 # Zmajko: Dragon and Knight
 
-[![Zmajko: Dragon and Knight](http://img.youtube.com/vi/Yo19VyVmrfs/0.jpg)](http://www.youtube.com/watch?v=Yo19VyVmrfs "Zmajko: Dragon and Knight")
+[![Zmajko: Dragon and Knight](http://img.youtube.com/vi/R0NtMxZinHY/0.jpg)](http://www.youtube.com/watch?v=R0NtMxZinHY "Zmajko: Dragon and Knight")
+
+# Dinko: Dinosaur
+
+[![Dinko: Dinosaur](http://img.youtube.com/vi/Yo19VyVmrfs/0.jpg)](http://www.youtube.com/watch?v=Yo19VyVmrfs "Dinko: Dinosaur")
+
+# Mišo i Ciukalo: Cat and Mouse
+
+[![Mišo i Ciukalo: Cat and Mouse](http://img.youtube.com/vi/oMQUdzMcbbk/0.jpg)](http://www.youtube.com/watch?v=oMQUdzMcbbk "Mišo i Ciukalo: Cat and Mouse")

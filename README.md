@@ -30,7 +30,7 @@
 
 # Dinko: Dinosaur
 
-[![Dinko: Dinosaur](http://img.youtube.com/vi/Yo19VyVmrfs/0.jpg)](http://www.youtube.com/watch?v=Yo19VyVmrfs "Dinko: Dinosaur")
+[![Dinko: Dinosaur](http://img.youtube.com/vi/eU7NDnDyffE/0.jpg)](http://www.youtube.com/watch?v=eU7NDnDyffE "Dinko: Dinosaur")
 
 # Mišo i Ciukalo: Cat and Mouse
 

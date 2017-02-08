@@ -24,13 +24,13 @@
 
 (From http://stackoverflow.com/a/29616114/17469)
 
-# Games
+# Make a game in 5 minutes with Scratch
 
 Images are links to YouTube videos.
 
-# Make a game in 5 minutes with Scratch
-
 [![Make a game in 5 minutes with Scratch](http://img.youtube.com/vi/IrH5yQiL-B4/0.jpg)](http://www.youtube.com/watch?v=IrH5yQiL-B4 "Make a game in 5 minutes with Scratch")
+
+# Games
 
 ## Zmajko: Dragon and Knight
 

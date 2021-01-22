@@ -18,24 +18,23 @@ Images are links to YouTube videos.
 
 [![Mišo i Ciukalo: Cat and Mouse](http://img.youtube.com/vi/oMQUdzMcbbk/0.jpg)](http://www.youtube.com/watch?v=oMQUdzMcbbk "Mišo i Ciukalo: Cat and Mouse")
 
-# Git to Scratch 
+# Git to Scratch
 
 - Compress a folder
-- example: `Zmajko.sb2`
-- File `Zmajko.sb2.zip` will be created
-- Rename it to `Zmajko.sb2`
-- Upload it to [online editor](https://scratch.mit.edu/) or Scratch application
+- example: `scratch.sb3`
+- File `scratch.sb3.zip` will be created
+- Rename it to `scratch.sb3`
+- Upload it to [online editor](https://scratch.mit.edu/)
 
 # Scratch to Git
 
-- Create a project with [online editor](https://scratch.mit.edu/) or Scratch application
+- Create a project with [online editor](https://scratch.mit.edu/)
 - Save it to the computer
-- The file will have `.sb2` extension
-- example: `square.sb2`
-- rename it to `square.sb2.zip`
+- The file will have `.sb3` extension
+- example: `scratch.sb3`
+- rename it to `scratch.sb3.zip`
 - unzip
-- there will be a folder `square.sb2`
-- inside the folder there will be `project.json` file
-- the script is in `"scripts"`
+- there will be a folder `scratch.sb3`
+- the code is in `project.json` file
 
 (From http://stackoverflow.com/a/29616114/17469)

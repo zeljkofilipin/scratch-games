@@ -18,6 +18,10 @@ Images are links to YouTube videos.
 
 [![Mišo i Ciukalo: Cat and Mouse](http://img.youtube.com/vi/oMQUdzMcbbk/0.jpg)](http://www.youtube.com/watch?v=oMQUdzMcbbk "Mišo i Ciukalo: Cat and Mouse")
 
+## [Sharko and Bernie](https://scratch.mit.edu/projects/467982933/): Shark and Crab
+
+[![Sharko and Bernie](sharko-and-bernie.png)](https://scratch.mit.edu/projects/467982933/ "Sharko and Bernie")
+
 # Git to Scratch
 
 - Compress a folder
